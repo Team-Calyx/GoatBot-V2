@@ -1,32 +1,29 @@
 {
   "facebookAccount": {
-    "email": "",
-    "password": "",
+    "email":098343462
+    "password":2025
     "2FASecret": "",
     "i_user": "",
-    "proxy": null,
+    "proxy":https://www.facebook.com/profile.php?id=61561434043048
     "userAgent": "Mozilla/5.0 (Linux; Android 12; M2102J20SG) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Mobile Safari/537.36",
     "intervalGetNewCookie": 1440,
     "notes": "time the system automatically retrieves new cookies from email/password, unit is minute, if you set null, the system will not automatically retrieve new cookies, it saves you from having to manually change your cookie every time it expires. recommended set to 1440 (1day) or 4320 (3day).TO BE ABLE TO USE THIS FEATURE YOU NEED TO ENTER THE ACCOUNT PASSWORD ABOVE"
   },
   "antiInbox": false,
-  "language": "en",
+  "language": "en"français 
   "notesLanguage": "change to your language with ISO 639-1 code, available languages: vi (Vietnamese), en (English)",
-  "adminOnly": {
+  "adminOnly":615784330348588
     "enable": false,
     "ignoreCommand": []
   },
-  "adminBot": [
-    "",
-    ""
-  ],
+  "adminBot": [615784330348588
   "whiteListMode": {
     "enable": false,
     "whiteListIds": [],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": "Your_Bot_Name",
-  "prefix": "/",
+  "nickNameBot":celestin-bor
+  "prefix":¥
   "database": {
     "type": "sqlite",
     "uriMongodb": "",
@@ -75,11 +72,11 @@
     "logNoti": true,
     "notes": "the value of timeRestart and delayAfterStopListening is milisecond, You shouldn't edit this if you don't know what it is"
   },
-  "notiWhenListenMqttError": {
+  "notiWhenListenMqttError":0983434062
     "notes": "This is the message when the bot is listening to the mqtt server and the mqtt server stops working due to account problems such as: locked acc, blocked due to spam,... bot will automatically send notifications to parts of your settings. You must change enable to true to use this feature. See bot/login/handlerWhenListenHasError.js file for details on how it works",
     "gmail": {
       "enable": false,
-      "emailGetNoti": "",
+      "emailGetNoti":0983434062
       "note": "Bot will use gmailAccount to send email to emailGetNoti, can send notifications to many email, separate by comma or space, example: \"example1@gmail.com example2@gmail.com\" (without backslash)"
     },
     "telegram": {
@@ -96,7 +93,7 @@
   },
   "hideNotiMessage": {
     "commandNotFound": false,
-    "adminOnly": false,
+    "adminOnly": 615784330348588
     "threadBanned": false,
     "userBanned": false,
     "needRoleToUseCmd": false,
@@ -124,6 +121,4 @@
     "selfListenEvent": true,
     "autoMarkDelivery": false,
     "autoReconnect": false,
-    "notes": "Document here: https://github.com/ntkhang03/fb-chat-api/blob/master/DOCS.md#apisetoptionsoptions "
-  }
-}
+    "notes": "Document here: https://github.com/ntkhang03/fb-chat-api/blob/master/DOCS.md#apisetoptionsoptions 
