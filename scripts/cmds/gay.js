@@ -1,4 +1,4 @@
-const DIG = require("discord-image-generation");
+const DIG = require("@zorner/discord-image-generation");
 const axios = require('axios');
 const fs = require("fs");
 const os = require("os");

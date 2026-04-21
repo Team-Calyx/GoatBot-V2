@@ -357,7 +357,7 @@ function message(api, event) {
 				}
 			}
 		},
-		unsend: async (messageID, callback) => await api.unsendMessage(messageID, callback),
+		unsend: async (messageID, callback) => await api.unsendMessage(messageID, event.threadID, callback),
 		reaction: async (emoji, messageID, callback) => {
 			try {
 				global.statusAccountBot = 'good';
@@ -370,7 +370,6 @@ function message(api, event) {
 				}
 			}
 		},
-		err: async (err) => await sendMessageError(err),
 		error: async (err) => await sendMessageError(err)
 	};
 }

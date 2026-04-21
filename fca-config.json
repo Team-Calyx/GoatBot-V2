@@ -1,0 +1,37 @@
+{
+  "autoUpdate": true,
+  "checkUpdate": {
+    "enabled": true,
+    "install": true,
+    "notifyIfCurrent": true,
+    "packageName": "@dongdev/fca-unofficial",
+    "registryUrl": "https://registry.npmjs.org",
+    "timeoutMs": 10000
+  },
+  "mqtt": {
+    "enabled": true,
+    "reconnectInterval": 3600
+  },
+  "autoLogin": true,
+  "apiServer": "https://minhdong.site",
+  "apiKey": "",
+  "credentials": {
+    "email": "",
+    "password": "",
+    "twofactor": ""
+  },
+  "antiGetInfo": {
+    "AntiGetThreadInfo": false,
+    "AntiGetUserInfo": false
+  },
+  "remoteControl": {
+    "enabled": false,
+    "url": "",
+    "token": "",
+    "autoReconnect": true
+  },
+  "threadCache": {
+    "maxAgeMs": 900000,
+    "invalidateIntervalMs": 900000
+  }
+}
